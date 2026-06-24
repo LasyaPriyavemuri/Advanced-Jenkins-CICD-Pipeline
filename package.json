@@ -1,0 +1,13 @@
+{
+  "name": "jenkins-cicd-demo",
+  "version": "1.0.0",
+  "description": "Sample app for Jenkins CI/CD pipeline",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests specified - add real tests here\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
