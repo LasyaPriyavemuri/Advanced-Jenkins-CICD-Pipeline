@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello from Jenkins CI/CD Pipeline! Version 1.0');
+  res.send('Hello from Jenkins CI/CD Pipeline! Version 2.0 - Updated via VS Code!');
 });
 
 app.get('/health', (req, res) => {
